@@ -3,7 +3,8 @@ class Config:
     General configuration parent class
     """
     MOVIE_API_BASE_URL = 'https://api.themoviedb.org/3/movie/{}?api_key={}'
-
+    MOVIE_API_KEY = '12b82083888e210efd30e86a74ad2daf'
+    SECRET_KEY = os.urandom(24)
 
 
 class ProdConfig(Config):
@@ -25,3 +26,9 @@ class DevConfig(Config):
     """
 
     DEBUG = True
+
+
+config_options = {
+    'development': DevConfig,
+    'production': ProdConfig
+}
