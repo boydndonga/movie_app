@@ -1,8 +1,8 @@
 import unittest
 
-from app import movie
+from app.models import Movie
 
-Movie = movie.Movie
+# Movie = movie.Movie
 
 
 class MovieTest(unittest.TestCase):
