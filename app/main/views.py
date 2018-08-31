@@ -1,9 +1,9 @@
-from app import app
 from flask import render_template, request, redirect, url_for
-from .request import get_movies, get_movie, search_movie
-from .models import reviews
-from .forms import ReviewForm
 
+from app import app
+from app.models import reviews
+from app.request import get_movies, get_movie, search_movie
+from .forms import ReviewForm
 
 Review = reviews.Review
 

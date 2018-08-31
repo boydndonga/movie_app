@@ -1,5 +1,6 @@
 import unittest
-from app.models import movie
+
+from app import movie
 
 Movie = movie.Movie
 
