@@ -6,7 +6,7 @@ class Config:
     General configuration parent class
     """
     MOVIE_API_BASE_URL = 'https://api.themoviedb.org/3/movie/{}?api_key={}'
-    MOVIE_API_KEY = '12b82083888e210efd30e86a74ad2daf'
+    MOVIE_API_KEY = os.environ.get('MOVIE_API_KEY')
     SECRET_KEY = os.urandom(24)
 
 
