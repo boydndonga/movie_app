@@ -8,6 +8,7 @@ class Config:
     MOVIE_API_BASE_URL = 'https://api.themoviedb.org/3/movie/{}?api_key={}'
     MOVIE_API_KEY = os.environ.get('MOVIE_API_KEY')
     SECRET_KEY = os.urandom(24)
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ndonga:cP5320267@localhost/movies'
 
 
 class ProdConfig(Config):
