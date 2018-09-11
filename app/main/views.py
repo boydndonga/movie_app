@@ -6,6 +6,7 @@ from app.request import get_movies, get_movie, search_movie
 from .forms import ReviewForm, UpdateProfile
 from flask_login import login_required
 from flask import render_template,request,redirect,url_for
+from ..email import mail_message
 
 
 @main.route("/")
