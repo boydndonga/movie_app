@@ -9,10 +9,10 @@ class Config:
     MOVIE_API_KEY = os.environ.get('MOVIE_API_KEY')
     SECRET_KEY = os.urandom(24)
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ndonga:cP5320267@localhost/movies'
-
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    UPLOADED_PHOTOS_DEST ='app/static/photos'
 
-    
+
 class ProdConfig(Config):
     """
     Production  configuration child class
