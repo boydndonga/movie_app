@@ -1,5 +1,5 @@
+import unittest
 from app.models import Review,User
-from app import db
 
 
 class MovieTest(unittest.TestCase):
