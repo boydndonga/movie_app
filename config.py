@@ -8,7 +8,6 @@ class Config:
     MOVIE_API_BASE_URL = 'https://api.themoviedb.org/3/movie/{}?api_key={}'
     MOVIE_API_KEY = os.environ.get('MOVIE_API_KEY')
     SECRET_KEY = os.urandom(24)
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ndonga:cP5320267@localhost/movies'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     UPLOADED_PHOTOS_DEST ='app/static/photos'
 
@@ -38,10 +37,24 @@ class DevConfig(Config):
         Config: The parent configuration class with General configuration settings
     """
 
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ndonga:cP5320267@localhost/movies'
+    DEBUG = True
+
+
+class TestConfig(Config):
+    """
+    Development  configuration child class
+
+    Args:
+        Config: The parent configuration class with General configuration settings
+    """
+
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ndonga:cP5320267@localhost/movie_test'
     DEBUG = True
 
 
 config_options = {
     'development': DevConfig,
-    'production': ProdConfig
+    'production': ProdConfig,
+    'test': TestConfig
 }
