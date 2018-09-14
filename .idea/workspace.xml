@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce865a7f-0e47-432f-9679-ba2fec4e59e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/email.py" afterPath="$PROJECT_DIR$/../app/email.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/main/views.py" afterPath="$PROJECT_DIR$/../app/main/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/templates/review.html" afterPath="$PROJECT_DIR$/../app/templates/review.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../app/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -33,6 +32,16 @@
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="review.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../app/templates/review.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,7 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/.gitignore" />
         <option value="$USER_HOME$/instance/config.py" />
         <option value="$USER_HOME$/tests/test_movie.py" />
         <option value="$USER_HOME$/app/models/movie.py" />
@@ -132,6 +140,7 @@
         <option value="$USER_HOME$/app/templates/new_review.html" />
         <option value="$PROJECT_DIR$/../app/email.py" />
         <option value="$PROJECT_DIR$/../app/main/views.py" />
+        <option value="$PROJECT_DIR$/../app/templates/review.html" />
       </list>
     </option>
   </component>
@@ -313,7 +322,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/app/views.py" />
     <entry file="file://$USER_HOME$/app/templates/macros.html" />
     <entry file="file://$USER_HOME$/app/config.py" />
     <entry file="file://$USER_HOME$/app/templates/base.html" />
@@ -386,6 +394,14 @@
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../app/templates/review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
