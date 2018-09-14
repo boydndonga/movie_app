@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce865a7f-0e47-432f-9679-ba2fec4e59e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app/email.py" afterPath="$PROJECT_DIR$/../app/email.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../manage.py" afterPath="$PROJECT_DIR$/../manage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../requirements.txt" afterPath="$PROJECT_DIR$/../requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../start.sh" afterPath="$PROJECT_DIR$/../start.sh" />
-    </list>
+    <list default="true" id="ce865a7f-0e47-432f-9679-ba2fec4e59e8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
